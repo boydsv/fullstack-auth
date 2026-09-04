@@ -20,7 +20,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${spaceGrotesk.variable} ${spaceGrotesk.className} h-full antialiased`}
     >
       <body className="bg-black relative">
-        <div className="relative min-h-dvh w-screen z-1 flex justify-center items-center">
+        <div className="relative min-h-dvh p-6 w-screen z-1 flex justify-center items-center">
           {children}
         </div>
         <div className="absolute right-0 left-0 z-0 inset-0">
@@ -29,12 +29,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             raysColor="#ffffff"
             raysSpeed={1}
             lightSpread={0.5}
-            rayLength={3}
+            rayLength={30}
             followMouse={true}
             mouseInfluence={0.1}
             noiseAmount={0}
             distortion={0}
-            className="custom-rays"
             pulsating={false}
             fadeDistance={1}
             saturation={1}

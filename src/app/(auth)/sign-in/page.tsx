@@ -68,7 +68,7 @@ export default function SignUpPage() {
             <>
               <div className="flex items-center w-full gap-2 mt-4">
                 <span className="h-px flex-1 bg-white/10"></span>
-                <h2 className="text-white flex-4 text-center">
+                <h2 className="text-white flex-4 text-center text-xs sm:text-sm md:text-base">
                   {"Don't have an account?"}
                 </h2>
                 <span className="h-px flex-1 bg-white/10"></span>
